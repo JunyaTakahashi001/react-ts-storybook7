@@ -18,7 +18,7 @@ export const Default: Story = {
   },
 };
 
-export const Primay: Story = {
+export const Primary: Story = {
   args: {
     children: 'Primary',
     color: 'primary',
@@ -34,16 +34,14 @@ export const Danger: Story = {
 
 export const PrimarySmall: Story = {
   args: {
-    children: 'Primary',
-    color: 'primary',
+    ...Primary.args,
     size: 'sm',
   },
 };
 
 export const PrimaryLarge: Story = {
   args: {
-    children: 'Primary',
-    color: 'primary',
+    ...Primary.args,
     size: 'lg',
   },
 };
