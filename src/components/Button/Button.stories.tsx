@@ -31,3 +31,19 @@ export const Danger: Story = {
     color: 'danger',
   },
 };
+
+export const PrimarySmall: Story = {
+  args: {
+    children: 'Primary',
+    color: 'primary',
+    size: 'sm',
+  },
+};
+
+export const PrimaryLarge: Story = {
+  args: {
+    children: 'Primary',
+    color: 'primary',
+    size: 'lg',
+  },
+};
