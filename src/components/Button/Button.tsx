@@ -2,8 +2,10 @@ import './button.css';
 
 type Props = {
   children: React.ReactNode,
-  color?: string,
-  size?: string;
+  color?: 'default' | 'primary' | 'danger',
+  // color?: string;
+  size?: 'base' | 'sm' | 'lg',
+  // size?: string;
 };
 
 function Button({ children, color = 'default', size = 'base' }: Props) {
